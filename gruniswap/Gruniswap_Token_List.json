@@ -1,0 +1,105 @@
+{
+    "name": "Gruniswap Token List",
+    "timestamp": "2021-02-17T00:00:00.000Z",
+    "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 3
+    },
+    "keywords": [
+        "gruni",
+        "gruniswap",
+        "exchange",
+        "dex",
+        "green",
+        "sustainable"
+    ],
+    "logoURI": "https://raw.githubusercontent.com/gruniswap/assets/master/gruniswap/logo/native.svg",
+    "tags": {
+        "stablecoin": {
+            "name": "stablecoin",
+            "description": "Tokens that are fixed to an external asset"
+        },
+        "ewfmember": {
+            "name": "ewfmember",
+            "description": "Token of an Energy Web Foundation member"
+        },
+        "zerocarbon": {
+            "name": "zero carbon",
+            "description": "Token of a project that is carbon neutral, sourced completely by renewables"
+        },
+        "wrapped": {
+            "name": "wrapped",
+            "description": "Tokens that are a wrapped version of their original, holding the same value"
+        },
+        "bridged": {
+            "name": "bridged",
+            "description": "Tokens that are bridged over from another chain"
+        },
+        "meme": {
+            "name": "meme",
+            "description": "Tokens that were created with no specific purpose, for fun"
+        }
+    },
+    "tokens": [
+        {
+            "chainId": 246,
+            "address": "0x3a9C927DD096070CFF9e6B554E313cC047eA23F5",
+            "name": "Energy Web DAI",
+            "decimals": 18,
+            "symbol": "eDAI",
+            "logoURI": "https://raw.githubusercontent.com/gruniswap/assets/master/gruniswap/logo/0x3a9C927DD096070CFF9e6B554E313cC047eA23F5.svg",
+            "tags": [
+                "stablecoin",
+                "bridged"
+            ]
+        },
+        {
+            "chainId": 246,
+            "address": "0x6b3bd0478DF0eC4984b168Db0E12A539Cc0c83cd",
+            "name": "Wrapped Energy Web Token",
+            "decimals": 18,
+            "symbol": "WEWT",
+            "logoURI": "https://raw.githubusercontent.com/gruniswap/assets/master/gruniswap/logo/0x6b3bd0478DF0eC4984b168Db0E12A539Cc0c83cd.png",
+            "tags": [
+                "wrapped",
+                "zerocarbon"
+            ]
+        },
+        {
+            "chainId": 73799,
+            "address": "0xDb8B4264b1777e046267b4Cc123f0C9E029cEB2c",
+            "name": "Wrapped Volta Token",
+            "decimals": 18,
+            "symbol": "WVT",
+            "logoURI": "https://raw.githubusercontent.com/gruniswap/assets/master/gruniswap/logo/0xDb8B4264b1777e046267b4Cc123f0C9E029cEB2c.png",
+            "tags": [
+                "wrapped",
+                "zerocarbon"
+            ]
+        },
+        {
+            "chainId": 73799,
+            "address": "0x6AB434C660c38e8BDDF93F570CbC263104d31bA6",
+            "name": "Funny DAI",
+            "decimals": 18,
+            "symbol": "fDAI",
+            "logoURI": "https://raw.githubusercontent.com/gruniswap/assets/master/gruniswap/logo/0x6AB434C660c38e8BDDF93F570CbC263104d31bA6.png",
+            "tags": [
+                "meme",
+                "stablecoin"
+            ]
+        },
+        {
+            "chainId": 73799,
+            "address": "0x94512DA6dA903606B15d4AfbE12333c1F7F65BeC",
+            "name": "Solarcoin",
+            "decimals": 18,
+            "symbol": "SLR",
+            "logoURI": "https://raw.githubusercontent.com/gruniswap/assets/master/gruniswap/logo/0x94512DA6dA903606B15d4AfbE12333c1F7F65BeC.png",
+            "tags": [
+                "zerocarbon"
+            ]
+        }
+    ]
+}
